@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+}
+img {
+  width: 20vw;
+  height: 40vh;
+
+  border-radius: 50%;
+  box-shadow: 13px 0px 8px rgb(23, 159, 250);
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.btn {
+  font-size: 30px;
+  cursor: pointer;
+  transition: font-size 0.3s ease;
+}
+.btn:hover {
+  font-size: 40px;
+}
+p {
+  max-width: 300px;
+  text-align: justify;
+}
+#job {
+  color: rgb(23, 159, 250);
+}
+#sup {
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  background-color: rgb(23, 159, 250);
+  color: white;
+  border-radius: 8px;
+  margin-top: 20px;
+}
